@@ -30,19 +30,26 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
+
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "/assets/"
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
+              "fileReplacements": [{
+                "replace": "src/enviroments/enviroments.ts",
+                "with": "src/enviroments/enviroments.prod.ts"
+              }],
               "budgets": [
                 {
                   "type": "initial",
@@ -95,6 +102,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -102,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
