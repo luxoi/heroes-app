@@ -16,22 +16,6 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
       "id": "dc-green",
       "superhero": "Green Lantern",
       "publisher": "DC Comics",
@@ -166,6 +150,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "B7zvDil",
+      "superhero": "luxoi",
+      "publisher": "Marvel Comics",
+      "alter_ego": "luxoi",
+      "first_appearance": "2001 NOVIEMBRE",
+      "characters": "teemo",
+      "alt_img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg"
     }
   ]
 }
